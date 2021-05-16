@@ -1,3 +1,8 @@
+body{
+    padding:50px 0px 0px 0px;
+    z-index:0;
+}
+
 .row-header{
     margin:0px auto;
     padding:0px;
@@ -19,8 +24,16 @@
 .jumbotron {
     padding:70px 30px 70px 30px;
     margin:0px auto;
-    background: #9575CD ;
+    background: #806de8;
     color:floralwhite;
+}
+
+.img-fluid{
+    border: 1px solid rgba(255, 255, 255, 0.61);
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.274);
+    width: 300px;
+    padding: 8px;
 }
 
 .address{
@@ -29,11 +42,22 @@
     color:#0f0f0f;
 }
 
-body{
-    padding:50px 0px 0px 0px;
-    z-index:0;
+.navbar-dark, .card-header, .thead-purple {
+     background-color: #512DA8;
+     color: #fff;
 }
 
-.navbar-dark {
-     background-color: #512DA8;
+.nav-item a{
+    color: #624ae9;
+}
+
+.nav-link.active.show{
+    color: #1b0692;
+}
+
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
 }
