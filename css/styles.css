@@ -1,34 +1,34 @@
-body{
-    padding:50px 0px 0px 0px;
-    z-index:0;
+body {
+    padding: 50px 0px 0px 0px;
+    z-index: 0;
 }
 
-.row-header{
-    margin:0px auto;
-    padding:0px;
+.row-header {
+    margin: 0px auto;
+    padding: 0px;
 }
 
 .row-content {
-    margin:0px auto;
+    margin: 0px auto;
     padding: 50px 0px 50px 0px;
     border-bottom: 1px ridge;
-    min-height:400px;
+    min-height: 400px;
 }
 
-.footer{
+.footer {
     background-color: #D1C4E9;
-    margin:0px auto;
+    margin: 0px auto;
     padding: 20px 0px 20px 0px;
 }
 
 .jumbotron {
-    padding:70px 30px 70px 30px;
-    margin:0px auto;
+    padding: 70px 30px 70px 30px;
+    margin: 0px auto;
     background: #806de8;
-    color:floralwhite;
+    color: floralwhite;
 }
 
-.img-fluid{
+.img-fluid {
     border: 1px solid rgba(255, 255, 255, 0.61);
     border-radius: 6px;
     background: rgba(255, 255, 255, 0.274);
@@ -36,22 +36,24 @@ body{
     padding: 8px;
 }
 
-.address{
-    font-size:80%;
-    margin:0px;
-    color:#0f0f0f;
+.address {
+    font-size: 80%;
+    margin: 0px;
+    color: #0f0f0f;
 }
 
-.navbar-dark, .card-header, .thead-purple {
-     background-color: #512DA8;
-     color: #fff;
+.navbar-dark,
+.card-header,
+.thead-purple {
+    background-color: #512DA8;
+    color: #fff;
 }
 
-.nav-item a{
+.nav-item a {
     color: #624ae9;
 }
 
-.nav-link.active.show{
+.nav-link.active.show {
     color: #1b0692;
 }
 
@@ -62,16 +64,16 @@ body{
     padding: 10px;
 }
 
-#btnLogin:hover{
+#btnLogin:hover {
     cursor: pointer;
 }
 
 .carousel {
-    background:#512DA8;
+    background: #512DA8;
 }
 
 .carousel-item {
-  height: 300px;
+    height: 300px;
 }
 
 .carousel-item img {
@@ -79,4 +81,16 @@ body{
     top: 0;
     left: 0;
     min-height: 300px;
+}
+
+.modal-content {
+    width: 610px;
+}
+
+.modal .form-group .col-12 {
+    margin-bottom: 20px;
+}
+
+.btn-footer{
+    margin-bottom: -3px;
 }
